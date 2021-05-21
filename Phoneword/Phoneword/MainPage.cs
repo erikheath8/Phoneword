@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace Phoneword
@@ -14,13 +15,16 @@ namespace Phoneword
 
         public MainPage()
         {
+            // Sets padding between objects 
             this.Padding = new Thickness(20, 20, 20, 20);
 
+            // Sets the spacing between objects on the panel or screen
             StackLayout panel = new StackLayout
             {
                 Spacing = 15
             };
 
+            // Adding labels, buttons, and the their default text thru children of the panel
             panel.Children.Add(new Label
             {
                 Text = "Enter a Phoneword:",
@@ -44,19 +48,21 @@ namespace Phoneword
             });
 
             translateButton.Clicked += OnTranslate;
-            callButton.Clicked += OnCall;
+            callButton.Clicked += Oncall;
             this.Content = panel;
         }
 
         private void OnTranslate(object sender, EventArgs e)
         {
             string enteredNumber = phoneNumberText.Text;
+            // Assigns the translated number using the created domain's class verfication
             translatedNumber = Core.PhonewordTranslator.ToNumber(enteredNumber);
 
+            // Enables or disables the functionality of Call the button on screen
             if (!string.IsNullOrEmpty(translatedNumber))
             {
                 callButton.IsEnabled = true;
-                callButton.Text = "Call" + translatedNumber;
+                callButton.Text = "Call: " + translatedNumber;
             }
             else
             {
@@ -65,9 +71,36 @@ namespace Phoneword
             }
         }
 
-        void Oncall(object sender, System.EventArgs e)
+        async void Oncall(object sender, System.EventArgs e)
         {
-
+            if (await this.DisplayAlert(
+                "Dial a Number",
+                "Would you like to call: " + translatedNumber + "?",
+                // String accept
+                "Yes",
+                // String cancel
+                "No"))
+            {
+                // Using Xamarin.Essentials Phonedialer to dial the passed chars
+                try
+                {
+                    PhoneDialer.Open(translatedNumber);
+                }
+                // Displayed if the entered numbers were null or not valid
+                catch (ArgumentNullException)
+                {
+                    await DisplayAlert("Unable to dial", "Phone number was not valid.", "OK");
+                }
+                catch (FeatureNotSupportedException)
+                {
+                    await DisplayAlert("Unable to dial", "Phone dialing not supported.", "OK");
+                }   
+                // "Catch All" if no other exception covers
+                catch (Exception)
+                {
+                    await DisplayAlert("Unable to dial", "Phone dialing failed.", "OK");
+                }
+            }
         }
 
     }

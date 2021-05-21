@@ -1,4 +1,4 @@
-package crc64bc4bc45b5b32d53b;
+package crc64d6c34ebe8a9b77fb;
 
 
 public class MainActivity
@@ -13,7 +13,7 @@ public class MainActivity
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"n_onRequestPermissionsResult:(I[Ljava/lang/String;[I)V:GetOnRequestPermissionsResult_IarrayLjava_lang_String_arrayIHandler\n" +
 			"";
-		mono.android.Runtime.register ("Phoneword.Droid.MainActivity, Phoneword.Android", MainActivity.class, __md_methods);
+		mono.android.Runtime.register ("Core.Droid.MainActivity, Phoneword.Android", MainActivity.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class MainActivity
 	{
 		super ();
 		if (getClass () == MainActivity.class)
-			mono.android.TypeManager.Activate ("Phoneword.Droid.MainActivity, Phoneword.Android", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Core.Droid.MainActivity, Phoneword.Android", "", this, new java.lang.Object[] {  });
 	}
 
 
@@ -29,7 +29,7 @@ public class MainActivity
 	{
 		super (p0);
 		if (getClass () == MainActivity.class)
-			mono.android.TypeManager.Activate ("Phoneword.Droid.MainActivity, Phoneword.Android", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
+			mono.android.TypeManager.Activate ("Core.Droid.MainActivity, Phoneword.Android", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
 	}
 
 

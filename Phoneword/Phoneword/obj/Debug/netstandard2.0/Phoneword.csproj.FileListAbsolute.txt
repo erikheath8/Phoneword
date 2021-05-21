@@ -2,9 +2,7 @@ C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\P
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\bin\Debug\netstandard2.0\Phoneword.dll
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\bin\Debug\netstandard2.0\ref\Phoneword.dll
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\bin\Debug\netstandard2.0\Phoneword.pdb
-C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.csprojAssemblyReference.cache
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.AssemblyInfoInputs.cache
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.AssemblyInfo.cs
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.csproj.CoreCompileInputs.cache
@@ -12,3 +10,4 @@ C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\P
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.dll
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\ref\Phoneword.dll
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.pdb
+C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.csprojAssemblyReference.cache

@@ -475,7 +475,6 @@ C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\P
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword.Android\obj\Debug\110\android\src\crc64a25b61d9f8ee364f\RectEvaluator.java
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword.Android\obj\Debug\110\android\src\crc64a25b61d9f8ee364f\TransitionUtils.java
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword.Android\obj\Debug\110\android\src\crc64a25b61d9f8ee364f\TransitionUtils_MatrixEvaluator.java
-C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword.Android\obj\Debug\110\android\src\crc64bc4bc45b5b32d53b\MainActivity.java
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword.Android\obj\Debug\110\android\src\crc64ee486da937c010f4\ButtonRenderer.java
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword.Android\obj\Debug\110\android\src\crc64ee486da937c010f4\FrameRenderer.java
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword.Android\obj\Debug\110\android\src\crc64ee486da937c010f4\ImageRenderer.java
@@ -574,3 +573,4 @@ C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\P
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\fzr60\Documents\projects\cSharp\xamarin\microsoft\Phoneword\Phoneword\Phoneword.Android\obj\Debug\110\android\src\crc64d6c34ebe8a9b77fb\MainActivity.java
